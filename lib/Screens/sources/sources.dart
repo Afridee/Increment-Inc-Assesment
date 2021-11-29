@@ -47,7 +47,7 @@ class _SourcesState extends State<Sources> {
                  FlutterClipboard.copy(widget.sources[index].url)
                      .then((value) => {
                    AwesomeDialog(
-                       padding: EdgeInsets.all(15),
+                       padding: const EdgeInsets.all(15),
                        context: context,
                        dialogType: DialogType.SUCCES ,
                        animType: AnimType.BOTTOMSLIDE,

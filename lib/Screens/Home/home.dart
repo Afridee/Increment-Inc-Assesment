@@ -26,6 +26,10 @@ class _HomeState extends State<Home> {
            return BottomNavigationBar(
              onTap: (index){
                screenController.switchScreen(index);
+               if(index==2){
+                 authenticationController.logOut();
+                 screenController.switchScreen(0);
+               }
              },
               currentIndex: sc.screenIndex,
               unselectedItemColor: textColorGrey,
