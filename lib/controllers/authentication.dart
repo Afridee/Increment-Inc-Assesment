@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'package:assesmentbyafridee/Screens/Authentication/otp.dart';
-import 'package:assesmentbyafridee/Screens/Home/home.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
